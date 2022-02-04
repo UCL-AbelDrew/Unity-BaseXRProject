@@ -1,0 +1,33 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5a96cf76-2a50-40a0-9d1b-827883a2dcbe",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "4f3e5ee9-673b-4ae4-b1b6-c3c062b77bad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07b54559-e24f-41ae-8ea9-d5909fb4886b",
+                    "path": "<XRInputV1::Valve::IndexControllerOpenXR>{LeftHand}/grippressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
